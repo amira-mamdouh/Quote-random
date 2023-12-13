@@ -1,0 +1,89 @@
+/* font-family: 'Beau Rivage', cursive;
+font-family: 'Dancing Script', cursive;
+font-family: 'Rubik', sans-serif; */
+
+html {
+  font-size: 16px;
+}
+
+body {
+  font-family: "Rubik", sans-serif;
+}
+
+section {
+  text-align: center;
+  min-height: 100vh;
+  background-image: linear-gradient(
+      rgba(250, 250, 250, 0.5),
+      rgba(250, 250, 250, 0.5)
+    ),
+    url(../imgs/bg.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  color: #034c67;
+  padding-top: 6rem;
+}
+
+h1 {
+  font-size: 6.25rem;
+  font-weight: 800;
+  font-family: "Beau Rivage", cursive;
+  margin-bottom: 35px;
+}
+
+p {
+  font-size: 1.875rem;
+}
+
+button {
+  background-color: transparent;
+  border: 2px solid #034c67;
+  padding: 15px 30px;
+  border-radius: 15px;
+  color: #034c67;
+  margin-top: 20px;
+  font-size: 1.56rem;
+  transition: 0.4s all;
+}
+
+button:hover {
+  background-color: #034c67;
+  border: 2px solid #034c67;
+  color: #fff;
+}
+
+#quote {
+  margin: 20px;
+  font-size: 3.125rem;
+  font-family: "Beau Rivage", cursive;
+  font-weight: 500;
+}
+
+#quote p {
+  font-family: "Rubik", sans-serif;
+}
+
+/* media */
+
+@media screen and (max-width: 767px) {
+  html {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 496px) {
+  html {
+    font-size: 12px;
+  }
+}
+@media screen and (max-width: 560px) {
+  section {
+    background-image: linear-gradient(
+        rgba(250, 250, 250, 0.5),
+        rgba(250, 250, 250, 0.5)
+      ),
+      url(../imgs/bg-1.jpg);
+    background-size: cover;
+    padding-top: 10.25rem;
+  }
+}
